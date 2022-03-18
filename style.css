@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color red and blue for all text blue and red  */
+.description_color_blue{
+    color: blue;
+}
+.description_color_red{
+    color: rgb(236, 46, 46);
+}
+.description_color_white{
+    color: #fff;
+}
+
+/* style header  */
+
+header{
+
+    background: url(images/header.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:35em;
+}
+
+.tittle{
+    float: left;
+    margin-left: 50px;
+}
+nav{
+    margin:30px 0;
+    flex: 1;
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+}
+nav ul li a{
+text-decoration: none;
+color: rgb(54, 53, 53);
+padding: 10px;
+font-size: 17px;
+}
+
+
+nav li a:hover{
+    background-color: rgb(20, 3, 245);
+    border-left: 3px solid rgb(255, 0, 0);
+    color: #fff;
+    padding: 8.5px;
+}
+
+header .description{
+   text-align: center;
+   font-family:century;
+   padding-top: 100px;
+   font-size:80px;
+}
+
+header p{
+    text-align: center;
+    color:#fff;
+    margin-top:30px;
+    font-size: 20px;
+}
+
+header .voir_plus h2{
+    text-align: center;
+}
+header .voir_plus h2 a{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(48, 48, 238);
+    padding: 10px;
+}
+.voir_plus{
+ display: flex;
+  margin-top: 60px;
+  justify-content: center;
+
+}
+.voir{
+    color: red;
+    margin-top: -10px;
+    background-color: blueviolet;
+    padding: 11px;
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+/* corps du page choisissez */
+
+.choisissez h1,.the_enseignants h1{
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+.contente {
+  margin:auto;
+  display: inline-flex;
+  width: 100%;
+  
+  justify-content: center;
+  text-align: center;
+}
+.contente input{
+    width: 34%;
+    background-color: rgba(185, 190, 190, 0.178);
+    margin-right: 30px;
+    padding-left: 20px;
+    border: none;
+}
+
+.contente .voir_cours h2,.voir_enseignants h2{
+    text-align: center;
+}
+.contente .voir_cours h2 a,.voir_enseignants h2 a{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(48, 48, 238);
+    padding: 10px;
+}
+.voir_cours,.voir_enseignants{
+ display: flex;
+  margin-top: 10px;
+  justify-content: center;
+
+}
+.voirs{
+    color: red;
+  margin-top: -10px;
+    background-color: blueviolet;
+    padding:13px;
+    cursor: pointer;
+    margin-left: -8px;
+}
+
+/* meilleurs vente  */
+
+.contentes{
+    display:inline-flex;
+    width:100%;
+    margin:auto;
+    align-items:center;
+    justify-content:center;
+    margin-top:150px;
+    margin-bottom: 59px;
+}
+.contentes1{
+    background-color: rgba(202, 207, 207, 0.137);
+    border-bottom: 3px solid blue;
+    height:40em;
+    margin:auto;
+    width:27%;
+}
+.contentes1 img{
+    width: 100%;
+}
+.contentes1 .sql_img{
+    height: 13em;
+}
+.vente_prix{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.vente_prix .ventes{
+    background-color: blue;
+    color:#fff;
+    margin:10px 30px 10px -30px;
+    padding:10px;
+}
+.vente_prix p{
+    font-size: 20px;
+    margin-top: -4px;
+}
+
+.contentes1 h2,p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.photo{
+    width: 50%;
+    background-color: black;
+}
+.enseignent{
+    display: inline-flex;
+    margin-top: 50px;
+}
+.enseignent img{
+    width: 14%;
+    margin-left: 20px;
+    border-radius: 40%;
+}
+.enseignent .name{
+    margin-right: 80px;
+}
+
+/* category the_enseignants */
+
+.enseignant1{
+   display: inline-flex;
+   justify-content: center;
+   width: 100%;
+}
+.enseignant1 img{
+padding: 20px;    
+margin: 20px;
+width: 90%;
+}
+.enseignant1 h2{
+    text-align: center;
+}
+.enseignant1 p{
+    text-align: center;
+    margin-left: -5px;
+}
+.voir_enseignant{
+    margin: 150px 0;
+    
+}
+.voir_enseignants h2{
+    padding-right: 8px;
+}
+.voir_enseignants p{
+    padding: 13px;
+}
+
+/* Section evenement a venir  */
+.annonce{
+    width: 100%;
+    padding: 30px;
+}
+
+.evenement_a_venir{
+    display: inline-flex;
+    margin-top: 80px;
+    
+}
+.all{
+    margin-right: 450px;
+    width: 50%;
+}
+.date{
+    background-color: blue;
+    margin-left:40px;
+    width: 90px;
+    height: 90px;
+}
+.date p{
+    text-align: center;
+    color: #fff;
+    margin-left: -3px;
+}
+.date #dates{
+    font-size: 2em;
+}
+.annonce h1{
+    margin-left: 40px;
+}
+.all_annonce{    
+    width: 100%;
+    display:flex ;
+    flex-wrap: wrap;
+}
+.evenements p{
+    margin-top: -1px;
+}
+.float h1{
+    margin-top: -40px;
+}
+
+/* rejoignez universe */
+
+.rejoignez_universe{
+   margin-top: 150px;
+   margin-bottom: 200px;
+  background:url(images/rejoignez_nous.jpg) center;
+  background-size: cover;
+  width: 100%;
+  height: 20em;
+}
+.rejoignez_universe{
+    text-align: center;
+    padding-top: 100px;
+}
+.rejoignez_universe_btn{
+    margin-top: -90px;
+}
+.rejoignez_universe_btn h2{
+    font-size:1em;
+    padding-right: 8px;
+}
+.rejoignez_universe_btn p{
+    padding: 8.4px;
+}
+
